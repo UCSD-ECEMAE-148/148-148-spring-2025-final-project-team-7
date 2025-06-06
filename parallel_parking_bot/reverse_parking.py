@@ -1,6 +1,6 @@
 # function to reverse park the car, edit the values as needed
 import time
-from control_vals import STEER_LEFT, STEER_STRAIGHT, THROTTLE_REVERSE, PARK_TIME
+from control_values import STEER_LEFT, STEER_STRAIGHT, THROTTLE_REVERSE, PARK_TIME
 from vesc_control import set_throttle, set_steering, stop_car
 
 def reverse_parallel_park(vesc):

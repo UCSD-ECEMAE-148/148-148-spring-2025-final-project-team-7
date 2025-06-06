@@ -1,6 +1,6 @@
 # function to align car parallel to spot after detecting it
 import time
-from control_vals import STEER_LEFT, STEER_STRAIGHT, THROTTLE_FORWARD, ALIGN_TIME
+from control_values import STEER_LEFT, STEER_STRAIGHT, THROTTLE_FORWARD, ALIGN_TIME
 from vesc_control import set_throttle, set_steering, stop_car
 
 def align_to_side_of_spot(vesc):

@@ -1,6 +1,6 @@
 # function to perform forward parking maneuver, edit values as needed
 import time
-from control_vals import STEER_RIGHT, STEER_STRAIGHT, THROTTLE_FORWARD, PARK_TIME
+from control_values import STEER_RIGHT, STEER_STRAIGHT, THROTTLE_FORWARD, PARK_TIME
 from vesc_control import set_throttle, set_steering, stop_car
 
 def forward_parallel_park(vesc):
