@@ -15,7 +15,7 @@ Final Slides:
 Results:
   - Able to park in the spot successfully! Could scale up the functionality of the car, but due to time constraints and part malfunctions, this is as much as we could do.
 
-How to replicated:
+How to replicate:
  - Install all the libraries, such as opencv-python, pyvesc, dpethai, etc (check files for other files needed)
  - Edit the values in the align_to_spot.py, forward_park.py and parallel_park.py to work for your configuration (also control_values.py)
  - Use camera debug to create an hsv mask to detect the spot using the oakd lite
